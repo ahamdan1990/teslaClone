@@ -1,0 +1,7 @@
+const HeaderActionTypes = {
+    FETCH_CAR_INFO_START:'FETCH_CAR_INFO_START',
+    FETCH_CAR_INFO_SUCCESS:'FETCH_CAR_INFO_SUCCESS',
+    FETCH_CAR_INFO_FAILURE:'FETCH_CAR_INFO_FAILURE'
+}
+
+export default HeaderActionTypes;

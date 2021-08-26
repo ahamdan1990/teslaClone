@@ -38,5 +38,25 @@
         "time": "2.05",
         "topSpeed": "190",
         "peakPower": "1,040"
+    },
+    {
+        "id": 4,
+        "title": "SOLAR ROOF",
+        "description": "Order Online for Touchless Delivery",
+        "image": "model-y.jpg",
+        "range": "410",
+        "time": "2.05",
+        "topSpeed": "190",
+        "peakPower": "1,040"
+    },
+    {
+        "id": 5,
+        "title": "SOLAR PANELS",
+        "description": "Order Online for Touchless Delivery",
+        "image": "model-y.jpg",
+        "range": "410",
+        "time": "2.05",
+        "topSpeed": "190",
+        "peakPower": "1,040"
     }
 ]

@@ -25,7 +25,7 @@ export function* fetchCountries() {
     
     try {
 
-        const response = yield fetch('https://restcountries.eu/rest/v2/all');
+        const response = yield fetch('https://restcountries.com/v3.1/all');
         const countries = yield response.json();
 
         yield put(fetchCountriesSuccess(countries));

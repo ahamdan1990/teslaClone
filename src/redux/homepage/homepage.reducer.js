@@ -3,7 +3,7 @@ import HomePageActionTypes from './homepage.types';
 const INITIAL_STATE={
     sectionsData:null,
     error:null,
-    isLoading:null,
+    isLoading:false,
     countries:null,
     region:null,
 }

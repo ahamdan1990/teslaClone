@@ -13,10 +13,11 @@ class Homepage extends React.Component {
         const {fetchSectionDataStart,fetchCountriesStart,toggleLoadingTrue,isLoading} = this.props;
         
         if(isLoading === null) {
-
+            console.log("im inside");
             toggleLoadingTrue();
             fetchSectionDataStart();
             fetchCountriesStart();
+            console.log(fetchCountriesStart());
         }
        
     }

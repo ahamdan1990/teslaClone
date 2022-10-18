@@ -14,7 +14,7 @@ class Homepage extends React.Component {
         
         if(isLoading === null) {
 
-            
+            toggleLoadingTrue();
             fetchSectionDataStart();
             fetchCountriesStart();
         }

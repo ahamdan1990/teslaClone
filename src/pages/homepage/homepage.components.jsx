@@ -13,10 +13,6 @@ class Homepage extends React.Component {
         const {fetchSectionDataStart,fetchCountriesStart,toggleLoadingTrue,isLoading} = this.props;
         
         if(isLoading === null) {
-            console.log("im inside");
-            toggleLoadingTrue();
-            fetchSectionDataStart();
-            fetchCountriesStart();
             console.log(fetchCountriesStart());
         }
        
@@ -32,20 +28,6 @@ class Homepage extends React.Component {
 
         return (
             <HomePageWrapper>
-                {
-                    !region 
-                        &&
-                    <PopupRegionWrapper>
-                        <PopupContent>
-                            <h1>Select Region</h1>
-                            {
-                                countries && countries.map(country => (
-                                    <li key={country.alpha2Code} onClick={handleOnClickSetRegion}><span>{country.name}</span></li>
-                                ))
-                            }
-                        </PopupContent>
-                    </PopupRegionWrapper> 
-                }
                 {
                     sectionsData.map(({id,...props}) => (
                         <Section key={id} {...props} />
